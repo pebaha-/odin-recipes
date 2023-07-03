@@ -1,0 +1,33 @@
+h1 {
+    color: green;
+}
+
+h3 {
+    color: lightcoral;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+ol {
+    font-style: italic;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ol li {
+    list-style-type: lower-roman;
+}
