@@ -1,5 +1,9 @@
-h1 {
+h1.title {
     color: green;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background-color: lightgreen;
+    display: inline-block;
 }
 
 h3 {
@@ -30,4 +34,23 @@ ul li {
 
 ol li {
     list-style-type: lower-roman;
+}
+
+.container {
+    text-align: center;
+}
+
+.container li {
+    list-style: none;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.container li,
+h1.title {
+    display: inline-block;
+    box-shadow: 5px 5px gray;
 }
